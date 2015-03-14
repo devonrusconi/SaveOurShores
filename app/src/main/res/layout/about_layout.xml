@@ -44,23 +44,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save Our Shores is honored to be so well-regarded in the Central Coast community!\n\n "
+            android:text="Save Our Shores is honored to be so well-regarded in the Central Coast community!\n\n First Place for “Best Nonprofit” in the 2010 Good Times Best of Santa Cruz County readers’ poll
+            \n\nFirst Place for “Best Nonprofit” in the 2011 Santa Cruz Weekly Gold Awards\n\nSecond Place for “Best Activist Group” in the 2011 Good Times Best of Santa Cruz County readers’ poll
+            \n\nFirst Place for “Best Nonprofit” in the 2012 Good Times Best of Santa Cruz County readers’ poll\n\nGreen Business Certification Award"
             android:id="@+id/textView4"
             android:layout_marginTop="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
             android:layout_below="@+id/textView3"
-            android:layout_alignParentBottom="true"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="First Place for “Best Nonprofit” in the 2010 Good Times Best of Santa Cruz County readers’ poll First Place for “Best Nonprofit” in the 2011 Santa Cruz Weekly Gold Awards Second Place for “Best Activist Group” in the 2011 Good Times Best of Santa Cruz County readers’ poll First Place for “Best Nonprofit” in the 2012 Good Times Best of Santa Cruz County readers’ poll Green Business Certification Award"
-            android:id="@+id/textView5"
-            android:layout_below="@+id/textView3"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+
         <WebView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
