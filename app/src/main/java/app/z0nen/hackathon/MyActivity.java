@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
+
 public class MyActivity extends Activity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
@@ -48,20 +49,36 @@ public class MyActivity extends Activity
 
         switch (position) {
             case 0:
-                objFragment = new menu1_Fragment();
+                objFragment = new Home_Fragment();
                 break;
             case 1:
-                objFragment = new menu2_Fragment();
+                objFragment = new About_Fragment();
                 break;
             case 2:
-                objFragment = new menu3_Fragment();
+                objFragment = new Form_Fragment();
+                break;
+            case 3:
+                objFragment = new Graph_Fragment();
+                break;
+            case 4:
+                objFragment = new Calendar_Fragment();
+                break;
+            case 5:
+                objFragment = new News_Fragment();
+                break;
+            case 6:
+                objFragment = new Donate_Fragment();
+                break;
+            case 7:
+                objFragment = new Contact_Fragment();
                 break;
         }
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getFragmentManager();
-        fragmentManager.beginTransaction()
-                .replace(R.id.container, objFragment)
-                .commit();
+        fragmentManager.beginTransaction().replace(R.id.container, objFragment).commit();
+
+
+
     }
 
     public void onSectionAttached(int number) {
@@ -75,6 +92,22 @@ public class MyActivity extends Activity
             case 3:
                 mTitle = getString(R.string.title_section3);
                 break;
+            case 4:
+                mTitle = getString(R.string.title_section4);
+                break;
+            case 5:
+                mTitle = getString(R.string.title_section5);
+                break;
+            case 6:
+                mTitle = getString(R.string.title_section6);
+                break;
+            case 7:
+                mTitle = getString(R.string.title_section7);
+                break;
+            case 8:
+                mTitle = getString(R.string.title_section8);
+                break;
+
         }
     }
 

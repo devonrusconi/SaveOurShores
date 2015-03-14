@@ -6,16 +6,23 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 
 /**
- * Created by Z0NEN on 10/22/2014.
+ * Created by Devon on 3/14/2015.
  */
-public class menu2_Fragment extends Fragment {
+public class Form_Fragment extends Fragment {
     View rootview;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        rootview = inflater.inflate(R.layout.menu2_layout, container, false);
+
+        rootview = inflater.inflate(R.layout.form_layout, container, false);
         return rootview;
     }
+
+
+
+
 }
+

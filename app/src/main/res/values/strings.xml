@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Slide Menu</string>
-    <string name="title_section1">Menu 1</string>
-    <string name="title_section2">Menu 2</string>
-    <string name="title_section3">Menu 3</string>
+    <string name="app_name">Save Our Shores</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">About Us</string>
+    <string name="title_section3">Form</string>
+    <string name="title_section4">Graph</string>
+    <string name="title_section5">Calendar</string>
+    <string name="title_section6">News</string>
+    <string name="title_section7">Donate</string>
+    <string name="title_section8">Contact Us</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
