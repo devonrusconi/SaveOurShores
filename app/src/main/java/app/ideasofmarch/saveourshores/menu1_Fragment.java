@@ -7,9 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Z0NEN on 10/22/2014.
- */
 public class menu1_Fragment extends Fragment {
     View rootview;
     @Nullable
