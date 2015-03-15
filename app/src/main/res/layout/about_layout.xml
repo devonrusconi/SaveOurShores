@@ -24,11 +24,11 @@
             android:text="Over the last 30 years, Save Our Shores has been responsible for key accomplishments such as preventing offshore oil drilling in Central Coast waters, helping to establish the Monterey Bay National Marine Sanctuary, preventing local cruise ship pollution, and bringing together diverse stakeholders to find common solutions to ocean issues. Today we focus on educating youth about our watersheds, tackling plastic pollution on our beaches and rivers, advocating for plastic-free communities, managing Annual Coastal Cleanup Day in Santa Cruz and Monterey counties, running our nationally renowned Dockwalker program, and providing our community with educated and inspired Sanctuary Stewards!"
             android:id="@+id/textView2"
             android:textSize="20dp"
-            android:layout_below="@+id/textView"
-            android:layout_alignLeft="@+id/textView4"
-            android:layout_alignStart="@+id/textView4"
+            android:layout_below="@+id/videoView"
             android:layout_alignRight="@+id/textView4"
-            android:layout_alignEnd="@+id/textView4" />
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -44,9 +44,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save Our Shores is honored to be so well-regarded in the Central Coast community!\n\n First Place for “Best Nonprofit” in the 2010 Good Times Best of Santa Cruz County readers’ poll
-            \n\nFirst Place for “Best Nonprofit” in the 2011 Santa Cruz Weekly Gold Awards\n\nSecond Place for “Best Activist Group” in the 2011 Good Times Best of Santa Cruz County readers’ poll
-            \n\nFirst Place for “Best Nonprofit” in the 2012 Good Times Best of Santa Cruz County readers’ poll\n\nGreen Business Certification Award"
+            android:text="Save Our Shores is honored to be so well-regarded in the Central Coast community!\n\n First Place for “Best Nonprofit” in the 2010 Good Times Best of Santa Cruz County readers’ poll             \n\nFirst Place for “Best Nonprofit” in the 2011 Santa Cruz Weekly Gold Awards\n\nSecond Place for “Best Activist Group” in the 2011 Good Times Best of Santa Cruz County readers’ poll             \n\nFirst Place for “Best Nonprofit” in the 2012 Good Times Best of Santa Cruz County readers’ poll\n\nGreen Business Certification Award"
             android:id="@+id/textView4"
             android:layout_marginTop="15dp"
             android:layout_marginRight="15dp"
@@ -55,12 +53,14 @@
             android:textSize="20dp"
             android:layout_alignParentBottom="true" />
 
+        <VideoView
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:id="@+id/videoView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_below="@+id/textView" />
 
-        <WebView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/webView"
-            android:layout_gravity="center" />
     </RelativeLayout>
 </ScrollView>
 
