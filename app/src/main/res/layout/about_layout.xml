@@ -5,13 +5,14 @@
     >
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent" android:layout_height="match_parent"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal" android:background="@color/lightBlue">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="About Us "
+            android:textColor="@color/white"
             android:id="@+id/textView"
             android:textSize="60dp"
             android:layout_alignParentTop="true"
@@ -28,7 +29,12 @@
             android:layout_alignRight="@+id/textView4"
             android:layout_alignEnd="@+id/textView4"
             android:layout_alignLeft="@+id/textView3"
-            android:layout_alignStart="@+id/textView3" />
+            android:layout_alignStart="@+id/textView3"
+            android:phoneNumber="true"
+            android:background="@color/white"
+            android:paddingTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -39,7 +45,11 @@
             android:textSize="25dp"
             android:layout_below="@+id/textView2"
             android:layout_alignLeft="@+id/textView4"
-            android:layout_alignStart="@+id/textView4" />
+            android:layout_alignStart="@+id/textView4"
+            android:textColor="@color/white"
+            android:paddingTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -51,7 +61,10 @@
             android:layout_marginLeft="15dp"
             android:layout_below="@+id/textView3"
             android:textSize="20dp"
-            android:layout_alignParentBottom="true" />
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
 
         <VideoView
             android:layout_width="500dp"
@@ -59,7 +72,16 @@
             android:id="@+id/videoView"
             android:layout_alignLeft="@+id/textView"
             android:layout_alignStart="@+id/textView"
-            android:layout_below="@+id/textView" />
+            android:layout_below="@+id/textView"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+             />
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
 
     </RelativeLayout>
 </ScrollView>
