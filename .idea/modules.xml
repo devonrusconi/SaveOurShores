@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/SaveOurShores.iml" filepath="$PROJECT_DIR$/SaveOurShores.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/Save Our Shores.iml" filepath="$PROJECT_DIR$/Save Our Shores.iml" />
->>>>>>> 3e6fe245fbb6171f2d87d81fa5a652655019044b
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
