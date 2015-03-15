@@ -5,11 +5,12 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 //import com.google.android.gms.maps.*;
 //import com.google.android.gms.maps.model.*;
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.ViewGroup;
+
 /**
  * Created by Devon on 3/14/2015.
  */
@@ -22,6 +23,7 @@ public class Contact_Fragment extends Fragment {
         rootview = inflater.inflate(R.layout.contact_layout, container, false);
         return rootview;
     }
+
 //    public class MapPane extends Activity implements OnMapReadyCallback {
 //
 //        @Override
@@ -47,4 +49,6 @@ public class Contact_Fragment extends Fragment {
 //                    .position(sydney));
 //        }
     }
+
+
 

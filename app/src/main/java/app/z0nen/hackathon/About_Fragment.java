@@ -17,13 +17,13 @@ import android.widget.VideoView;
 public class About_Fragment extends Fragment {
 
 
+    View rootview;
     @Nullable
     @Override
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View rootview;
-        rootView = inflater.inflate(R.layout.about_layout, container, false);
+        rootview = inflater.inflate(R.layout.about_layout, container, false);
 
 //        VideoView vid = (VideoView) rootview.findViewById(R.id.videoView);
 //        vid.setVideoPath("C:\\Users\\Devon\\Desktop\\SaveOurShores\\app\\src\\main\\res\\raw\\video1.3gp");
