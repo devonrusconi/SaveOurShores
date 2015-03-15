@@ -27,7 +27,7 @@ public class About_Fragment extends Fragment {
         rootview = inflater.inflate(R.layout.about_layout, container, false);
 
         VideoView vv = (VideoView)this.rootview.findViewById(R.id.videoView);
-        String uri = "android.resource://" + getActivity().getPackageName() + "/" + R.raw.video1;
+        String uri = "andrid.resource://" + getActivity().getPackageName() + "/" + R.raw.video1;
         MediaController mc= new MediaController(getActivity());
         vv.setMediaController(mc);
         vv.setVideoURI(Uri.parse(uri));
