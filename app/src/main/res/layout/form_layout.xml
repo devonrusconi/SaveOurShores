@@ -287,8 +287,6 @@
             android:id="@+id/textView16"
             android:layout_alignBottom="@+id/textView15"
             android:layout_alignParentRight="true" />
-<<<<<<< HEAD
-=======
 
         <Button
             style="?android:attr/buttonStyleSmall"
