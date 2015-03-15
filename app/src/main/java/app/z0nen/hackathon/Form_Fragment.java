@@ -14,15 +14,17 @@ import com.firebase.client.Firebase;
  * Created by Devon on 3/14/2015.
  */
 public class Form_Fragment extends Fragment {
+    int counter=0;
     View rootview;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         rootview = inflater.inflate(R.layout.form_layout, container, false);
+
+
         return rootview;
     }
-
 
 
 
