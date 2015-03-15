@@ -6,7 +6,7 @@
     android:fillViewport="false"
     android:id="@+id/form">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
         android:layout_width="match_parent" android:layout_height="match_parent"
         android:gravity="center_horizontal">
 
@@ -96,7 +96,6 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentLeft="true"
             android:background="#ff55e0ff"
-            android:textStyle="bold"
             android:textColor="#ffffffff" />
 
         <Button
@@ -285,9 +284,5 @@
             android:id="@+id/textView16"
             android:layout_alignBottom="@+id/textView15"
             android:layout_alignParentRight="true" />
-
-
-
-
     </RelativeLayout>
 </ScrollView>

@@ -7,26 +7,28 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.widget.Button;
+import android.widget.TextView;
 
 import com.firebase.client.Firebase;
 
 /**
  * Created by Devon on 3/14/2015.
  */
-public class Form_Fragment extends Fragment {
-    int counter=0;
-    View rootview;
-    @Nullable
+public class Form_Fragment extends Fragment implements View.OnClickListener {
+    Button myButton;
+    TextView t;
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
-        rootview = inflater.inflate(R.layout.form_layout, container, false);
-
-
-        return rootview;
+    public View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedinstanceState) {
+        View myView = inflater.inflate(R.layout.form_layout, container, false);
+        myButton = (Button) myView.findViewById(R.id.button);
+        myButton.setOnClickListener(this);
+        return myView;
     }
 
-
-
+    @Override
+    public void OnClick(View v) {
+        t = (TextView) t.findViewById(R.id.text)
+    }
 }
 
