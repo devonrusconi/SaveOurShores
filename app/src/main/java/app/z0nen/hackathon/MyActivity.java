@@ -58,19 +58,14 @@ public class MyActivity extends Activity
             case 2:
                 objFragment = new Form_Fragment();
                 break;
+
             case 3:
-                objFragment = new Graph_Fragment();
-                break;
-            case 4:
                 objFragment = new Calendar_Fragment();
                 break;
-            case 5:
-                objFragment = new News_Fragment();
-                break;
-            case 6:
+            case 4:
                 objFragment = new Donate_Fragment();
                 break;
-            case 7:
+            case 5:
                 objFragment = new Contact_Fragment();
                 break;
         }
@@ -94,18 +89,13 @@ public class MyActivity extends Activity
                 mTitle = getString(R.string.title_section3);
                 break;
             case 4:
-                mTitle = getString(R.string.title_section4);
-                break;
-            case 5:
                 mTitle = getString(R.string.title_section5);
                 break;
-            case 6:
-                mTitle = getString(R.string.title_section6);
-                break;
-            case 7:
+
+            case 5:
                 mTitle = getString(R.string.title_section7);
                 break;
-            case 8:
+            case 6:
                 mTitle = getString(R.string.title_section8);
                 break;
 

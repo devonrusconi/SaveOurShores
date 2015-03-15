@@ -35,6 +35,7 @@
             android:layout_alignStart="@+id/textView3"
             android:phoneNumber="true"
             android:background="@color/white"
+            android:textColor="@color/lightBlue"
             android:paddingTop="20dp"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
@@ -68,6 +69,7 @@
             android:textSize="20dp"
             android:layout_alignParentBottom="true"
             android:background="@color/white"
+            android:textColor="@color/lightBlue"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:paddingBottom="20dp"/>

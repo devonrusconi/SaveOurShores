@@ -35,6 +35,10 @@ public class Form_Fragment extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootview = inflater.inflate(R.layout.form_layout, container, false);
 
+
+        View caculateButton = rootview.findViewById(R.id.button);
+        caculateButton.setOnClickListener(this);
+
         //subtraction
         View sub1Button = rootview.findViewById(R.id.button);
         sub1Button.setOnClickListener(this);
@@ -73,7 +77,6 @@ public class Form_Fragment extends Fragment implements View.OnClickListener {
         subPiecesButton.setOnClickListener(this);
 
 
-        //addition
         View additionButton = rootview.findViewById(R.id.button2);
         additionButton.setOnClickListener(this);
 
