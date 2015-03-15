@@ -10,10 +10,32 @@
         android:layout_width="match_parent" android:layout_height="match_parent"
         android:gravity="center_horizontal">
 
-        <CalendarView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"></CalendarView>
+        <!--<CalendarView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"></CalendarView>-->
+    <ImageView
+        android:id="@+id/march"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:src="@drawable/march"/>
 
+    <ImageView
+        android:id="@+id/april"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@drawable/april"/>
+
+    <ImageView
+        android:id="@+id/may"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:src="@drawable/may"/>
 
     </RelativeLayout>
 </ScrollView>
