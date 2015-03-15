@@ -28,13 +28,12 @@ import android.content.Context;
 public class About_Fragment extends Fragment {
     View rootview;
     VideoView myview;
-    private static final String TAG = "VideoPlayer";
+
     @Nullable
     @Override
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootview = inflater.inflate(R.layout.about_layout, container, false);
-
 
 
         return rootview;
