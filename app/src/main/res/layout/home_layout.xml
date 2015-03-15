@@ -19,9 +19,6 @@ android:gravity="center_horizontal"
     android:layout_alignStart="@+id/homeTitle"
     android:textStyle="bold"
     />
-<ImageView
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"/>
 
 
 </RelativeLayout>
