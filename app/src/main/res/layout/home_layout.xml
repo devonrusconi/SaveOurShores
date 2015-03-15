@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    android:background=""
-    >
-    <TextView
-        android:layout_width="wrap_content"
+android:layout_width="match_parent" android:layout_height="match_parent"
+android:gravity="center_horizontal"
+    android:background="@drawable/waves">
+<TextView
+    android:layout_width="wrap_content"
+    android:text="Save Our Shores"
+    android:textSize="55dp"
+    android:textColor="#5ebdcf"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="55dp"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:id="@+id/homeTitle"
+    android:layout_alignParentTop="true"
+    android:layout_alignLeft="@+id/homeTitle"
+    android:layout_alignStart="@+id/homeTitle"
+    android:textStyle="bold"
+    />
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
 
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/homeTitle"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/homeTitle"
-        android:layout_alignStart="@+id/homeTitle"
-        />
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="300dp"
-        android:background=""
-        android:layout_centerInParent="true"/>
-
- </RelativeLayout>
+</RelativeLayout>
