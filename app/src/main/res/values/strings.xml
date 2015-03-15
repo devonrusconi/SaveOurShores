@@ -10,6 +10,8 @@
     <string name="title_section6">News</string>
     <string name="title_section7">Donate</string>
     <string name="title_section8">Contact Us</string>
+    <string name="donateBlurb">Click below to directly donate to our beach clean-up efforts!</string>
+    <string name="donate">Donate Now!</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
