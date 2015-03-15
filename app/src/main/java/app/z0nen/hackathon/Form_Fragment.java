@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 
+import com.firebase.client.Firebase;
+
 /**
  * Created by Devon on 3/14/2015.
  */
