@@ -37,44 +37,11 @@ public class About_Fragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootview = inflater.inflate(R.layout.about_layout, container, false);
-        myview = (VideoView) rootview.findViewById(R.id.videoView);
+
 
 
         return rootview;
 
-
-    }
-    @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        myview.setMediaController(new MediaController(getActivity()));
-    }
-    public void playVideo() {
-        Uri uri = Uri.parse("android.resource://" + getActivity().getPackageName() + "/" + R.raw.video1);
-        Log.d(TAG, "Uri is: " + uri);
-        setVideoLocation(uri);
-        if (!myview.isPlaying()) {
-            myview.start();
-        }
-    }
-    private void setVideoLocation(Uri uri) {
-        try {
-            myview.setVideoURI(uri);
-        } catch (Exception e) {
-            Log.e(TAG, "VideoPlayer uri was invalid", e);
-            Toast.makeText(getActivity(), "Not found", Toast.LENGTH_SHORT).show();
-        }
-    }
-    public void pauseVideo() {
-        myview.pause();
-    }
-    public void fontClass(Context myContext) {
-        TextView title;
-        Typeface custom_font = Typeface.createFromAsset(myContext.getAssets(), "src/main/Asap-Regular.otf");
-
-
-        title = (TextView) rootview.findViewById(R.id.textView);
-        title.setTypeface(custom_font);
 
     }
 
