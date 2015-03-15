@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
+
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:gravity="center_horizontal"
 
     >
-    <TextView
-        android:layout_width="wrap_content"
-
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/homeTitle"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/homeTitle"
-        android:layout_alignStart="@+id/homeTitle"
-        />
     <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="300dp"
-        android:layout_centerInParent="true"/>
-=======
-android:layout_width="match_parent" android:layout_height="match_parent"
-android:gravity="center_horizontal"
-    android:background="@drawable/waves">
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="@drawable/waves"/>
+
+
 <TextView
     android:layout_width="wrap_content"
     android:text="Save Our Shores"
@@ -42,6 +32,3 @@ android:gravity="center_horizontal"
 
 
 </RelativeLayout>
-
->>>>>>> c7a2b20c2382006f8ebc79e218cd9db425d10175
-
