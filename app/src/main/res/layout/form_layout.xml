@@ -104,6 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
+            android:onClick="one"
             android:id="@+id/button"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/textView6"/>
@@ -589,6 +590,5 @@
             android:textStyle="bold" />
 
 
->>>>>>> 5aca5d2b736458ec69891687c3d52626bf8f399d
     </RelativeLayout>
 </ScrollView>
