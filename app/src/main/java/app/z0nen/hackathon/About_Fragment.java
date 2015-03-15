@@ -1,10 +1,13 @@
 package app.z0nen.hackathon;
 
 import android.app.Fragment;
+<<<<<<< HEAD
+=======
 
 import android.net.Uri;
 
 import android.content.res.AssetManager;
+>>>>>>> 1718f601629c5738dc5f723f2de31c611b7d8cda
 import android.graphics.Typeface;
 
 import android.os.Bundle;
@@ -13,12 +16,15 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
+=======
 import android.webkit.WebView;
 
 import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+>>>>>>> 1718f601629c5738dc5f723f2de31c611b7d8cda
 import android.widget.TextView;
 import android.content.Context;
 
@@ -68,7 +74,7 @@ public class About_Fragment extends Fragment {
     }
     public void fontClass(Context myContext) {
         TextView title;
-        Typeface custom_font = Typeface.createFromAsset(myContext.getAssets(), "fonts/Asap-Regular.otf");
+        Typeface custom_font = Typeface.createFromAsset(myContext.getAssets(), "src/main/Asap-Regular.otf");
 
 
         title = (TextView) rootview.findViewById(R.id.textView);
