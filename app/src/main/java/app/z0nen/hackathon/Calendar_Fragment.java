@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 
 /**
  * Created by Devon on 3/14/2015.
@@ -16,8 +17,19 @@ public class Calendar_Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        rootview = inflater.inflate(R.layout.calendar_layout, container, false);
-        return rootview;
+        //rootview = inflater.inflate(R.layout.calendar_layout, container, false);
+        //return rootview;
+
+        View rootView = inflater.inflate(R.layout.calendar_layout, container, false);
+
+        WebView webView = (WebView)rootView.findViewById(R.id.webCalendar);
+        webView.getSettings().setJavaScriptEnabled(true);
+
+        webView.loadUrl("http://saveourshores.org/calendar/");
+        webView.getSettings().setBuiltInZoomControls(true);
+        webView.setInitialScale(50);
+
+        return rootView;
     }
 
 }
