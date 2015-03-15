@@ -15,20 +15,14 @@ import com.firebase.client.Firebase;
 /**
  * Created by Devon on 3/14/2015.
  */
-public class Form_Fragment extends Fragment implements View.OnClickListener {
-    Button myButton;
-    TextView t;
-    @Override
-    public View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedinstanceState) {
-        View myView = inflater.inflate(R.layout.form_layout, container, false);
-        myButton = (Button) myView.findViewById(R.id.button);
-        myButton.setOnClickListener(this);
-        return myView;
-    }
+public class Form_Fragment extends Fragment {
+    View rootview;
 
+    @Nullable
     @Override
-    public void OnClick(View v) {
-        t = (TextView) t.findViewById(R.id.text)
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        rootview = inflater.inflate(R.layout.graph_layout, container, false);
+        return rootview;
     }
 }
-

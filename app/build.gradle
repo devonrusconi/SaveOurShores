@@ -27,12 +27,12 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-<<<<<<< HEAD
+
     compile 'com.android.support:appcompat-v7:21.0.3'
     compile 'com.firebase:firebase-client-android:2.2.1+'
-=======
+
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile 'com.google.android.gms:play-services:6.5.87'
->>>>>>> ac71c563bcc1fecc61af4abae478c71a91c68544
+
 
 }
