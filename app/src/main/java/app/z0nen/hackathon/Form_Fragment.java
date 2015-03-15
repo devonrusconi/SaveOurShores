@@ -31,8 +31,7 @@ public class Form_Fragment extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootview = inflater.inflate(R.layout.form_layout, container, false);
 
-<<<<<<< HEAD
-=======
+
         View caculateButton = rootview.findViewById(R.id.button);
         caculateButton.setOnClickListener(this);
         View additionButton = rootview.findViewById(R.id.button2);
@@ -57,7 +56,7 @@ public class Form_Fragment extends Fragment implements View.OnClickListener{
             result = (TextView) rootview.findViewById(R.id.textView8);
             result.setText(""+value);
         }
->>>>>>> 54fbbd8f2a9af15698e6ef8cda8f61a9ce0bf7d1
+
     }
 
 }
