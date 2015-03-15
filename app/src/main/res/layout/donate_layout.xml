@@ -5,7 +5,18 @@
                 android:gravity="center_horizontal"
 
                 >
-
+            <TextView
+                android:id="@+id/half"
+                android:layout_width="fill_parent"
+                android:layout_height="260dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:background="@color/lightBlue"
+                android:textSize="20sp"
+             />
                 <ImageView
                     android:id="@+id/beachClean"
                     android:layout_width="fill_parent"
@@ -15,20 +26,6 @@
                     android:src="@drawable/beach_clean"
                     android:paddingTop="25dp"/>
 
-                 <TextView
-                    android:id="@+id/half"
-                    android:layout_width="fill_parent"
-                    android:layout_height="850dp"
-                    android:layout_centerInParent="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="240dp"
-                    android:layout_gravity="right"
-                    android:gravity="center"
-                    android:paddingTop="10dp"
-                    android:background="@color/lightBlue"
-                    android:textSize="20sp"
-                  />
-
                 <TextView
                     android:id="@+id/donatePls"
                     android:layout_width="250dp"
@@ -36,11 +33,10 @@
                     android:layout_centerInParent="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="260dp"
-                    android:layout_gravity="right"
                     android:gravity="center"
                     android:text="@string/donateBlurb"
                     android:paddingTop="10dp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/lightBlue"
                     android:textSize="20sp"
                     />
 
@@ -54,8 +50,8 @@
                     android:layout_marginTop="390dp"
                     android:padding="10dp"
                     android:text="@string/donate"
-                    android:background="@color/white"
-                    android:textColor="@color/lightBlue"
+                    android:background="@color/lightBlue"
+                    android:textColor="@color/white"
                     />
 
 
