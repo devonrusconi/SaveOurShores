@@ -4,31 +4,27 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:fillViewport="false"
-    android:id="@+id/form">
+    android:id="@+id/form"
+    android:background="#ffffff">
 
     <RelativeLayout
         android:layout_width="match_parent" android:layout_height="match_parent"
         android:gravity="center_horizontal"
-        android:id="@+id/app">
+        android:id="@+id/app"
+        android:paddingBottom="20dp">
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Save Our Shores"
-            android:id="@+id/textView"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Cleanup Data Card"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
             android:id="@+id/textView2"
             android:layout_below="@+id/textView"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,7 +34,9 @@
             android:id="@+id/textView3"
             android:layout_below="@+id/textView2"
             android:layout_alignParentLeft="true"
-            android:layout_marginTop="32dp" />
+            android:layout_marginTop="32dp"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <EditText
             android:layout_width="wrap_content"
@@ -47,7 +45,10 @@
             android:ems="10"
             android:id="@+id/editText"
             android:layout_alignBottom="@+id/textView3"
-            android:layout_alignParentRight="true" />
+            android:layout_alignParentRight="true"
+            android:background="#FF55E0FF"
+            android:textColor="#000000"
+            android:paddingRight="5dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -57,7 +58,9 @@
             android:id="@+id/textView4"
             android:layout_below="@+id/textView3"
             android:layout_alignParentLeft="true"
-            android:layout_alignRight="@+id/textView5" />
+            android:layout_alignRight="@+id/textView5"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <EditText
             android:layout_width="wrap_content"
@@ -67,7 +70,10 @@
             android:id="@+id/editText2"
             android:layout_alignTop="@+id/textView4"
             android:layout_alignRight="@+id/editText"
-            android:layout_alignLeft="@+id/editText" />
+            android:layout_alignLeft="@+id/editText"
+            android:background="#FF55E0FF"
+            android:textColor="#000000"
+            android:paddingRight="5dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -76,7 +82,9 @@
             android:text="Pounds of Trash:"
             android:id="@+id/textView5"
             android:layout_below="@+id/textView4"
-            android:layout_alignRight="@+id/textView3" />
+            android:layout_alignRight="@+id/textView3"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <EditText
             android:layout_width="wrap_content"
@@ -85,7 +93,9 @@
             android:ems="10"
             android:id="@+id/editText3"
             android:layout_below="@+id/textView4"
-            android:layout_alignLeft="@+id/editText2" />
+            android:layout_alignLeft="@+id/editText2"
+            android:background="#FF55E0FF"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="fill_parent"
@@ -98,7 +108,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentLeft="true"
             android:background="#ff55e0ff"
-            android:textColor="#ffffffff" />
+            android:textColor="#ffffffff"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -107,7 +117,8 @@
             android:text="-"
             android:id="@+id/button"
             android:layout_alignParentLeft="true"
-            android:layout_below="@+id/textView6"/>
+            android:layout_below="@+id/textView6"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -117,7 +128,8 @@
             android:id="@+id/button2"
             android:layout_below="@+id/textView6"
             android:layout_toRightOf="@+id/button"
-            android:layout_toEndOf="@+id/button" />
+            android:layout_toEndOf="@+id/button"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -129,7 +141,9 @@
             android:layout_alignLeft="@+id/textView"
             android:layout_alignStart="@+id/textView"
             android:layout_alignRight="@+id/textView11"
-            android:layout_alignEnd="@+id/textView11" />
+            android:layout_alignEnd="@+id/textView11"
+            android:textColor="#000000"
+            android:paddingRight="-80dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -139,8 +153,10 @@
             android:id="@+id/textView8"
             android:layout_alignRight="@+id/editText3"
             android:layout_alignEnd="@+id/editText3"
-            android:layout_alignBottom="@+id/textView7"
-            android:layout_alignTop="@+id/textView7" />
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_alignTop="@+id/textView7"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -149,7 +165,8 @@
             android:text="-"
             android:id="@+id/button3"
             android:layout_below="@+id/button"
-            android:layout_alignParentLeft="true" />
+            android:layout_alignParentLeft="true"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -158,7 +175,8 @@
             android:text="+"
             android:id="@+id/button4"
             android:layout_alignBottom="@+id/button3"
-            android:layout_alignLeft="@+id/button2" />
+            android:layout_alignLeft="@+id/button2"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -167,7 +185,8 @@
             android:text="Bags (trash)"
             android:id="@+id/textView9"
             android:layout_alignBottom="@+id/button4"
-            android:layout_toRightOf="@+id/textView5" />
+            android:layout_toRightOf="@+id/textView5"
+            android:textColor="#000000"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -175,7 +194,9 @@
             android:text="0"
             android:id="@+id/textView10"
             android:layout_alignTop="@+id/textView9"
-            android:layout_alignParentRight="true" />
+            android:layout_alignParentRight="true"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -184,7 +205,8 @@
             android:text="-"
             android:id="@+id/button5"
             android:layout_below="@+id/button3"
-            android:layout_toLeftOf="@+id/button4" />
+            android:layout_toLeftOf="@+id/button4"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -193,7 +215,8 @@
             android:text="+"
             android:id="@+id/button6"
             android:layout_alignTop="@+id/button5"
-            android:layout_alignLeft="@+id/button4" />
+            android:layout_alignLeft="@+id/button4"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -202,7 +225,8 @@
             android:text="Bags (ziplock, snack)"
             android:id="@+id/textView11"
             android:layout_alignBottom="@+id/button6"
-            android:layout_alignLeft="@+id/textView9" />
+            android:layout_alignLeft="@+id/textView9"
+            android:textColor="#000000"/>
 
 
         <TextView
@@ -212,7 +236,9 @@
             android:text="0"
             android:id="@+id/textView12"
             android:layout_alignTop="@+id/textView11"
-            android:layout_alignParentRight="true" />
+            android:layout_alignParentRight="true"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -221,7 +247,9 @@
             android:text="-"
             android:id="@+id/button7"
             android:layout_below="@+id/textView12"
-            android:layout_alignParentLeft="true" />
+            android:layout_alignParentLeft="true"
+            android:textColor="#000000"
+            />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -230,7 +258,8 @@
             android:text="+"
             android:id="@+id/button8"
             android:layout_alignBottom="@+id/button7"
-            android:layout_alignLeft="@+id/button6" />
+            android:layout_alignLeft="@+id/button6"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -241,7 +270,8 @@
             android:layout_alignBottom="@+id/button8"
             android:layout_toRightOf="@+id/textView5"
             android:layout_alignRight="@+id/textView7"
-            android:layout_alignEnd="@+id/textView7" />
+            android:layout_alignEnd="@+id/textView7"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -251,7 +281,9 @@
             android:id="@+id/textView14"
             android:layout_alignBottom="@+id/button7"
             android:layout_alignLeft="@+id/textView12"
-            android:layout_alignParentRight="true" />
+            android:layout_alignParentRight="true"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -260,7 +292,8 @@
             android:text="-"
             android:id="@+id/button9"
             android:layout_below="@+id/button7"
-            android:layout_toLeftOf="@+id/button8" />
+            android:layout_toLeftOf="@+id/button8"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -269,7 +302,8 @@
             android:text="+"
             android:id="@+id/button10"
             android:layout_below="@+id/button7"
-            android:layout_toRightOf="@+id/button7" />
+            android:layout_toRightOf="@+id/button7"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -278,7 +312,9 @@
             android:text="Bottles"
             android:id="@+id/textView15"
             android:layout_alignBottom="@+id/button10"
-            android:layout_alignLeft="@+id/textView13" />
+            android:layout_alignLeft="@+id/textView13"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -287,7 +323,8 @@
             android:text="0"
             android:id="@+id/textView16"
             android:layout_alignBottom="@+id/textView15"
-            android:layout_alignParentRight="true" />
+            android:layout_alignParentRight="true"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -296,7 +333,8 @@
             android:text="-"
             android:id="@+id/subCups"
             android:layout_below="@+id/button9"
-            android:layout_toLeftOf="@+id/button8" />
+            android:layout_toLeftOf="@+id/button8"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -305,7 +343,8 @@
             android:text="+"
             android:id="@+id/addCups"
             android:layout_below="@+id/button10"
-            android:layout_toRightOf="@+id/button7" />
+            android:layout_toRightOf="@+id/button7"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -317,7 +356,8 @@
             android:layout_alignLeft="@+id/textView7"
             android:layout_alignStart="@+id/textView7"
             android:layout_alignRight="@+id/textView2"
-            android:layout_alignEnd="@+id/textView2" />
+            android:layout_alignEnd="@+id/textView2"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -327,7 +367,9 @@
             android:id="@+id/textView18"
             android:layout_alignTop="@+id/textView17"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -336,7 +378,8 @@
             android:text="-"
             android:id="@+id/subSixPack"
             android:layout_below="@+id/subCups"
-            android:layout_toLeftOf="@+id/button8" />
+            android:layout_toLeftOf="@+id/button8"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -345,7 +388,8 @@
             android:text="+"
             android:id="@+id/addSixPack"
             android:layout_below="@+id/addCups"
-            android:layout_toRightOf="@+id/button7" />
+            android:layout_toRightOf="@+id/button7"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -355,7 +399,8 @@
             android:id="@+id/textView19"
             android:layout_above="@+id/addStraws"
             android:layout_alignLeft="@+id/textView21"
-            android:layout_alignStart="@+id/textView21" />
+            android:layout_alignStart="@+id/textView21"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -365,7 +410,9 @@
             android:id="@+id/textView20"
             android:layout_alignTop="@+id/textView19"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -374,7 +421,8 @@
             android:text="-"
             android:id="@+id/subStraws"
             android:layout_below="@+id/subSixPack"
-            android:layout_toLeftOf="@+id/button8" />
+            android:layout_toLeftOf="@+id/button8"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -383,7 +431,8 @@
             android:text="+"
             android:id="@+id/addStraws"
             android:layout_below="@+id/addSixPack"
-            android:layout_toRightOf="@+id/subStraws" />
+            android:layout_toRightOf="@+id/subStraws"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -393,7 +442,8 @@
             android:id="@+id/textView21"
             android:layout_alignBottom="@+id/addStraws"
             android:layout_alignLeft="@+id/textView17"
-            android:layout_alignStart="@+id/textView17" />
+            android:layout_alignStart="@+id/textView17"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -405,7 +455,9 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_alignLeft="@+id/textView20"
-            android:layout_alignStart="@+id/textView20" />
+            android:layout_alignStart="@+id/textView20"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -414,7 +466,8 @@
             android:text="-"
             android:id="@+id/subFishing"
             android:layout_below="@+id/subStraws"
-            android:layout_toLeftOf="@+id/button8" />
+            android:layout_toLeftOf="@+id/button8"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -423,7 +476,8 @@
             android:text="+"
             android:id="@+id/addFishing"
             android:layout_below="@+id/addStraws"
-            android:layout_toRightOf="@+id/subStraws" />
+            android:layout_toRightOf="@+id/subStraws"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -435,7 +489,8 @@
             android:layout_alignLeft="@+id/textView21"
             android:layout_alignStart="@+id/textView21"
             android:layout_alignRight="@+id/textView7"
-            android:layout_alignEnd="@+id/textView7" />
+            android:layout_alignEnd="@+id/textView7"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -447,7 +502,9 @@
             android:layout_alignRight="@+id/textView22"
             android:layout_alignEnd="@+id/textView22"
             android:layout_alignLeft="@+id/textView22"
-            android:layout_alignStart="@+id/textView22" />
+            android:layout_alignStart="@+id/textView22"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -456,7 +513,8 @@
             android:text="-"
             android:id="@+id/subMotorOil"
             android:layout_below="@+id/subFishing"
-            android:layout_toLeftOf="@+id/button8" />
+            android:layout_toLeftOf="@+id/button8"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -465,7 +523,8 @@
             android:text="+"
             android:id="@+id/addMotorOil"
             android:layout_below="@+id/addFishing"
-            android:layout_toRightOf="@+id/subStraws" />
+            android:layout_toRightOf="@+id/subStraws"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -475,7 +534,8 @@
             android:id="@+id/textView25"
             android:layout_alignTop="@+id/textView26"
             android:layout_alignLeft="@+id/textView23"
-            android:layout_alignStart="@+id/textView23" />
+            android:layout_alignStart="@+id/textView23"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -487,7 +547,9 @@
             android:layout_alignRight="@+id/textView24"
             android:layout_alignEnd="@+id/textView24"
             android:layout_alignLeft="@+id/textView24"
-            android:layout_alignStart="@+id/textView24" />
+            android:layout_alignStart="@+id/textView24"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -496,7 +558,8 @@
             android:text="-"
             android:id="@+id/subBalloons"
             android:layout_below="@+id/subMotorOil"
-            android:layout_toLeftOf="@+id/button8" />
+            android:layout_toLeftOf="@+id/button8"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -505,7 +568,8 @@
             android:text="+"
             android:id="@+id/addBalloons"
             android:layout_below="@+id/addMotorOil"
-            android:layout_toRightOf="@+id/subBalloons" />
+            android:layout_toRightOf="@+id/subBalloons"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -515,7 +579,8 @@
             android:id="@+id/textView27"
             android:layout_alignBottom="@+id/addBalloons"
             android:layout_toRightOf="@+id/addBalloons"
-            android:layout_toEndOf="@+id/addBalloons" />
+            android:layout_toEndOf="@+id/addBalloons"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -525,7 +590,9 @@
             android:id="@+id/textView28"
             android:layout_alignTop="@+id/textView27"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -534,7 +601,8 @@
             android:text="-"
             android:id="@+id/subPieces"
             android:layout_below="@+id/subBalloons"
-            android:layout_toLeftOf="@+id/button8" />
+            android:layout_toLeftOf="@+id/button8"
+            android:textColor="#000000"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -543,7 +611,8 @@
             android:text="+"
             android:id="@+id/addPieces"
             android:layout_below="@+id/addBalloons"
-            android:layout_toRightOf="@+id/subPieces" />
+            android:layout_toRightOf="@+id/subPieces"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -553,7 +622,8 @@
             android:id="@+id/textView29"
             android:layout_alignBottom="@+id/addPieces"
             android:layout_alignLeft="@+id/textView27"
-            android:layout_alignStart="@+id/textView27" />
+            android:layout_alignStart="@+id/textView27"
+            android:textColor="#000000"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -563,7 +633,9 @@
             android:id="@+id/textView30"
             android:layout_alignBottom="@+id/addPieces"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
 
         <!--
         <TextView
@@ -592,7 +664,7 @@
 
         <Button
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:text="Submit"
             android:id="@+id/SubmitButton"
@@ -602,7 +674,11 @@
             android:layout_alignEnd="@+id/textView21"
             android:background="#ff55e0ff"
             android:textColor="#ffffffff"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"/>
+
 
 
     </RelativeLayout>

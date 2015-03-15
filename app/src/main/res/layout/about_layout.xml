@@ -4,8 +4,11 @@
     android:layout_height="fill_parent"
     >
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent" android:layout_height="match_parent"
-        android:gravity="center_horizontal" android:background="@color/lightBlue">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="@color/lightBlue"
+        android:paddingBottom="20dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -34,7 +37,8 @@
             android:background="@color/white"
             android:paddingTop="20dp"
             android:paddingLeft="15dp"
-            android:paddingRight="15dp"/>
+            android:paddingRight="15dp"
+            android:paddingBottom="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,7 +53,8 @@
             android:textColor="@color/white"
             android:paddingTop="20dp"
             android:paddingLeft="15dp"
-            android:paddingRight="15dp"/>/>
+            android:paddingRight="15dp"
+            android:paddingBottom="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -64,7 +69,8 @@
             android:layout_alignParentBottom="true"
             android:background="@color/white"
             android:paddingLeft="15dp"
-            android:paddingRight="15dp"/>
+            android:paddingRight="15dp"
+            android:paddingBottom="20dp"/>
 
         <VideoView
             android:layout_width="500dp"
