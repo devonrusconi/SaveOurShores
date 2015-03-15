@@ -2,7 +2,7 @@
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:fillViewport="false"
     android:id="@+id/form">
 
@@ -334,7 +334,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
-            android:id="@+id/subsix_Pack"
+            android:id="@+id/subSixPack"
             android:layout_below="@+id/subCups"
             android:layout_toLeftOf="@+id/button8" />
 
@@ -343,7 +343,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
-            android:id="@+id/addsix_Pack"
+            android:id="@+id/addSixPack"
             android:layout_below="@+id/addCups"
             android:layout_toRightOf="@+id/button7" />
 
@@ -373,7 +373,7 @@
             android:layout_height="wrap_content"
             android:text="-"
             android:id="@+id/subStraws"
-            android:layout_below="@+id/subsix_Pack"
+            android:layout_below="@+id/subSixPack"
             android:layout_toLeftOf="@+id/button8" />
 
         <Button
@@ -382,7 +382,7 @@
             android:layout_height="wrap_content"
             android:text="+"
             android:id="@+id/addStraws"
-            android:layout_below="@+id/addsix_Pack"
+            android:layout_below="@+id/addSixPack"
             android:layout_toRightOf="@+id/subStraws" />
 
         <TextView
@@ -565,15 +565,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
 
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="-"
-            android:id="@+id/subalkdf"
-            android:layout_below="@+id/subPieces"
-            android:layout_toLeftOf="@+id/button8" />
-
+        <!--
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -585,6 +577,29 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:background="#ff55e0ff"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/subFoodContainers"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/button8" />-->
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/SubmitButton"
+            android:layout_below="@+id/textView29"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView21"
+            android:layout_alignEnd="@+id/textView21"
             android:background="#ff55e0ff"
             android:textColor="#ffffffff"
             android:textStyle="bold" />
