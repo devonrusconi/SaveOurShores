@@ -1,16 +1,10 @@
 package app.z0nen.hackathon;
 
 import android.app.Fragment;
-<<<<<<< HEAD
-=======
 
->>>>>>> 33f382eb0eeff56c102fea1325aff6b113a7daf2
 import android.net.Uri;
 import android.content.res.AssetManager;
-<<<<<<< HEAD
-=======
 
->>>>>>> 33f382eb0eeff56c102fea1325aff6b113a7daf2
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -18,18 +12,12 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-<<<<<<< HEAD
-=======
 
->>>>>>> 33f382eb0eeff56c102fea1325aff6b113a7daf2
 import android.webkit.WebView;
 import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
-<<<<<<< HEAD
-=======
 
->>>>>>> 33f382eb0eeff56c102fea1325aff6b113a7daf2
 import android.widget.TextView;
 import android.content.Context;
 
