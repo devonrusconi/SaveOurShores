@@ -1,41 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:fillViewport="false"
-    android:id="@+id/calendar">
-
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent" android:layout_height="match_parent"
-        android:gravity="center_horizontal">
-
-        <!--<CalendarView-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"></CalendarView>-->
-    <ImageView
-        android:id="@+id/march"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="top"
-        android:gravity="top"
-        android:src="@drawable/march"/>
+    >
 
     <ImageView
-        android:id="@+id/april"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:src="@drawable/april"/>
+        android:id="@+id/cbPicView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/march"
+        android:layout_weight="3"
+        />
 
-    <ImageView
-        android:id="@+id/may"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="bottom"
-        android:gravity="bottom"
-        android:src="@drawable/may"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
 
-    </RelativeLayout>
-</ScrollView>
+        <ImageView
+            android:id="@+id/cbPrevPicView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/may"
+            android:layout_weight="3"
+            />
+
+        <ImageView
+            android:id="@+id/cbNextPicView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/april"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+</LinearLayout>
