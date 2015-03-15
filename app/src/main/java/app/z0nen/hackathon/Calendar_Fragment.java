@@ -16,7 +16,6 @@ public class Calendar_Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.calendar_layout, container, false);
-<<<<<<< HEAD
 
         /*
         WebView webView = (WebView)rootView.findViewById(R.id.webCalendar);
@@ -26,7 +25,7 @@ public class Calendar_Fragment extends Fragment {
         webView.getSettings().setBuiltInZoomControls(true);
         webView.setInitialScale(50);
         */
-=======
+
 //
 //        WebView webView = (WebView)rootView.findViewById(R.id.webCalendar);
 //        webView.getSettings().setJavaScriptEnabled(true);
@@ -34,7 +33,7 @@ public class Calendar_Fragment extends Fragment {
 //        webView.loadUrl("http://saveourshores.org/calendar/");
 //        webView.getSettings().setBuiltInZoomControls(true);
 //        webView.setInitialScale(50);
->>>>>>> fa97f381816add74288911e06590836ca530577e
+
 
         return rootView;
     }

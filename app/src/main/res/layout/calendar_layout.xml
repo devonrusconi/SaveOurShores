@@ -10,13 +10,9 @@
         android:layout_width="match_parent" android:layout_height="match_parent"
         android:gravity="center_horizontal">
 
-<<<<<<< HEAD
         <CalendarView
             android:layout_width="match_parent"
             android:layout_height="match_parent"></CalendarView>
-=======
-
->>>>>>> fa97f381816add74288911e06590836ca530577e
 
 
     </RelativeLayout>
