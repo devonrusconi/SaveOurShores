@@ -334,7 +334,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
-            android:id="@+id/sub6-Pack"
+            android:id="@+id/subsix_Pack"
             android:layout_below="@+id/subCups"
             android:layout_toLeftOf="@+id/button8" />
 
@@ -343,7 +343,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
-            android:id="@+id/add6-Pack"
+            android:id="@+id/addsix_Pack"
             android:layout_below="@+id/addCups"
             android:layout_toRightOf="@+id/button7" />
 
@@ -373,7 +373,7 @@
             android:layout_height="wrap_content"
             android:text="-"
             android:id="@+id/subStraws"
-            android:layout_below="@+id/sub6-Pack"
+            android:layout_below="@+id/subsix_Pack"
             android:layout_toLeftOf="@+id/button8" />
 
         <Button
@@ -382,7 +382,7 @@
             android:layout_height="wrap_content"
             android:text="+"
             android:id="@+id/addStraws"
-            android:layout_below="@+id/add6-Pack"
+            android:layout_below="@+id/addsix_Pack"
             android:layout_toRightOf="@+id/subStraws" />
 
         <TextView
