@@ -77,11 +77,6 @@
             android:layout_alignEnd="@+id/textView2"
              />
 
-        <com.google.android.youtube.player.YouTubePlayerView
-            android:id="@+id/player"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
 
     </RelativeLayout>
 </ScrollView>
