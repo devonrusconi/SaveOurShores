@@ -8,7 +8,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent" android:layout_height="match_parent"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:id="@+id/app">
 
 
         <TextView
@@ -237,7 +238,9 @@
             android:text="Food Wrappers (ie chips, candy)"
             android:id="@+id/textView13"
             android:layout_alignBottom="@+id/button8"
-            android:layout_toRightOf="@+id/textView5" />
+            android:layout_toRightOf="@+id/textView5"
+            android:layout_alignRight="@+id/textView7"
+            android:layout_alignEnd="@+id/textView7" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -284,5 +287,310 @@
             android:id="@+id/textView16"
             android:layout_alignBottom="@+id/textView15"
             android:layout_alignParentRight="true" />
+<<<<<<< HEAD
+=======
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/subCups"
+            android:layout_below="@+id/button9"
+            android:layout_toLeftOf="@+id/button8" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/addCups"
+            android:layout_below="@+id/button10"
+            android:layout_toRightOf="@+id/button7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cups, Lids, Plates, Utensils"
+            android:id="@+id/textView17"
+            android:layout_alignBottom="@+id/addCups"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/textView18"
+            android:layout_alignTop="@+id/textView17"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/subsix_Pack"
+            android:layout_below="@+id/subCups"
+            android:layout_toLeftOf="@+id/button8" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/addsix_Pack"
+            android:layout_below="@+id/addCups"
+            android:layout_toRightOf="@+id/button7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="6-Pack Rings"
+            android:id="@+id/textView19"
+            android:layout_above="@+id/addStraws"
+            android:layout_alignLeft="@+id/textView21"
+            android:layout_alignStart="@+id/textView21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/textView20"
+            android:layout_alignTop="@+id/textView19"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/subStraws"
+            android:layout_below="@+id/subsix_Pack"
+            android:layout_toLeftOf="@+id/button8" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/addStraws"
+            android:layout_below="@+id/addsix_Pack"
+            android:layout_toRightOf="@+id/subStraws" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Straws or Stirrers"
+            android:id="@+id/textView21"
+            android:layout_alignBottom="@+id/addStraws"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_alignStart="@+id/textView17" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/textView22"
+            android:layout_alignBottom="@+id/textView21"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignLeft="@+id/textView20"
+            android:layout_alignStart="@+id/textView20" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/subFishing"
+            android:layout_below="@+id/subStraws"
+            android:layout_toLeftOf="@+id/button8" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/addFishing"
+            android:layout_below="@+id/addStraws"
+            android:layout_toRightOf="@+id/subStraws" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Fishing Line, Nets, Lures, Floats"
+            android:id="@+id/textView23"
+            android:layout_above="@+id/addMotorOil"
+            android:layout_alignLeft="@+id/textView21"
+            android:layout_alignStart="@+id/textView21"
+            android:layout_alignRight="@+id/textView7"
+            android:layout_alignEnd="@+id/textView7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/textView24"
+            android:layout_alignBottom="@+id/textView23"
+            android:layout_alignRight="@+id/textView22"
+            android:layout_alignEnd="@+id/textView22"
+            android:layout_alignLeft="@+id/textView22"
+            android:layout_alignStart="@+id/textView22" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/subMotorOil"
+            android:layout_below="@+id/subFishing"
+            android:layout_toLeftOf="@+id/button8" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/addMotorOil"
+            android:layout_below="@+id/addFishing"
+            android:layout_toRightOf="@+id/subStraws" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Motor Oil Bottles"
+            android:id="@+id/textView25"
+            android:layout_alignTop="@+id/textView26"
+            android:layout_alignLeft="@+id/textView23"
+            android:layout_alignStart="@+id/textView23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/textView26"
+            android:layout_alignBottom="@+id/addMotorOil"
+            android:layout_alignRight="@+id/textView24"
+            android:layout_alignEnd="@+id/textView24"
+            android:layout_alignLeft="@+id/textView24"
+            android:layout_alignStart="@+id/textView24" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/subBalloons"
+            android:layout_below="@+id/subMotorOil"
+            android:layout_toLeftOf="@+id/button8" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/addBalloons"
+            android:layout_below="@+id/addMotorOil"
+            android:layout_toRightOf="@+id/subBalloons" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ballooons or Ribbons"
+            android:id="@+id/textView27"
+            android:layout_alignBottom="@+id/addBalloons"
+            android:layout_toRightOf="@+id/addBalloons"
+            android:layout_toEndOf="@+id/addBalloons" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/textView28"
+            android:layout_alignTop="@+id/textView27"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/subPieces"
+            android:layout_below="@+id/subBalloons"
+            android:layout_toLeftOf="@+id/button8" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/addPieces"
+            android:layout_below="@+id/addBalloons"
+            android:layout_toRightOf="@+id/subPieces" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Pieces"
+            android:id="@+id/textView29"
+            android:layout_alignBottom="@+id/addPieces"
+            android:layout_alignLeft="@+id/textView27"
+            android:layout_alignStart="@+id/textView27" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/textView30"
+            android:layout_alignBottom="@+id/addPieces"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/subalkdf"
+            android:layout_below="@+id/subPieces"
+            android:layout_toLeftOf="@+id/button8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="      STYROFOAM ITEMS (foamed plastic)"
+            android:id="@+id/textView31"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#ff55e0ff"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+
+>>>>>>> 5aca5d2b736458ec69891687c3d52626bf8f399d
     </RelativeLayout>
 </ScrollView>

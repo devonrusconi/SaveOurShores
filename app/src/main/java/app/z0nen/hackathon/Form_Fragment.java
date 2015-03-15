@@ -22,7 +22,14 @@ public class Form_Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
+<<<<<<< HEAD
         rootview = inflater.inflate(R.layout.graph_layout, container, false);
         return rootview;
+=======
+        rootview = inflater.inflate(R.layout.form_layout, container, false);
+
+
+           return rootview;
+>>>>>>> 5aca5d2b736458ec69891687c3d52626bf8f399d
     }
 }
