@@ -88,10 +88,11 @@
             android:layout_alignLeft="@+id/editText2" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="                        PLASTIC ITEMS"
+            android:text="PLASTIC ITEMS"
+            android:gravity="center"
             android:id="@+id/textView6"
             android:layout_below="@+id/textView5"
             android:layout_alignParentRight="true"
@@ -104,7 +105,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
-            android:onClick="one"
             android:id="@+id/button"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/textView6"/>
@@ -167,7 +167,7 @@
             android:text="Bags (trash)"
             android:id="@+id/textView9"
             android:layout_alignBottom="@+id/button4"
-            android:layout_toRightOf="@+id/textView5" />
+            android:layout_toRightOf="@+id/textView5" />/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
