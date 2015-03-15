@@ -2,6 +2,7 @@ package app.z0nen.hackathon;
 
 import android.app.Fragment;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -25,11 +26,12 @@ public class About_Fragment extends Fragment {
 
         rootview = inflater.inflate(R.layout.about_layout, container, false);
 
-//        VideoView vid = (VideoView) rootview.findViewById(R.id.videoView);
-//        vid.setVideoPath("C:\\Users\\Devon\\Desktop\\SaveOurShores\\app\\src\\main\\res\\raw\\video1.3gp");
-//        vid.setMediaController(new MediaController(getActivity()));
-//        vid.start();
-//        vid.requestFocus();
+        VideoView vv = (VideoView)this.rootview.findViewById(R.id.videoView);
+        String uri = "android.resource://" + getActivity().getPackageName() + "/" + R.raw.video1;
+        MediaController mc= new MediaController(getActivity());
+        vv.setMediaController(mc);
+        vv.setVideoURI(Uri.parse(uri));
+        vv.start();
 
         return rootview;
 

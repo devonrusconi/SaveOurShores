@@ -3,17 +3,20 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >
+    android:fillViewport="false"
+    android:id="@+id/calendar">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent" android:layout_height="match_parent"
         android:gravity="center_horizontal">
 
-    <WebView
-        android:id="@+id/webCalendar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
+<<<<<<< HEAD
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></CalendarView>
+=======
+
+>>>>>>> fa97f381816add74288911e06590836ca530577e
 
 
     </RelativeLayout>
