@@ -86,6 +86,16 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 21 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <orderEntry type="library" exported="" name="appcompat-v7-22.0.0" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-22.0.0" level="project" />
+    <orderEntry type="library" exported="" name="play-services-6.5.87" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-22.0.0" level="project" />
+=======
+<<<<<<< HEAD
+>>>>>>> 86b6a4cd7dacd523b5afd8bdf1ace812aac6f9a5
     <orderEntry type="library" exported="" name="jackson-databind-2.2.2" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.0.0" level="project" />
     <orderEntry type="library" exported="" name="tubesock-0.0.11" level="project" />
@@ -96,6 +106,12 @@
     <orderEntry type="library" exported="" name="play-services-6.5.87" level="project" />
     <orderEntry type="library" exported="" name="jackson-core-2.2.2" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-22.0.0" level="project" />
+<<<<<<< HEAD
+=======
+    <orderEntry type="library" exported="" name="appcompat-v7-22.0.0" level="project" />
+>>>>>>> ac71c563bcc1fecc61af4abae478c71a91c68544
+>>>>>>> 5aa019b2016a859d3b27864b9fa537bac7894a82
+>>>>>>> 86b6a4cd7dacd523b5afd8bdf1ace812aac6f9a5
   </component>
 </module>
 

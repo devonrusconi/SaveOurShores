@@ -13,14 +13,19 @@ import android.webkit.WebView;
  */
 public class Calendar_Fragment extends Fragment {
     View rootview;
-    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
-        //rootview = inflater.inflate(R.layout.calendar_layout, container, false);
-        //return rootview;
-
         View rootView = inflater.inflate(R.layout.calendar_layout, container, false);
+
+        /*
+        WebView webView = (WebView)rootView.findViewById(R.id.webCalendar);
+        webView.getSettings().setJavaScriptEnabled(true);
+
+        webView.loadUrl("http://saveourshores.org/media/newsletters/");
+        webView.getSettings().setBuiltInZoomControls(true);
+        webView.setInitialScale(50);
+        */
+
 //
 //        WebView webView = (WebView)rootView.findViewById(R.id.webCalendar);
 //        webView.getSettings().setJavaScriptEnabled(true);
@@ -28,6 +33,7 @@ public class Calendar_Fragment extends Fragment {
 //        webView.loadUrl("http://saveourshores.org/calendar/");
 //        webView.getSettings().setBuiltInZoomControls(true);
 //        webView.setInitialScale(50);
+
 
         return rootView;
     }
