@@ -1,43 +1,44 @@
 package app.z0nen.hackathon;
 
 import android.app.Fragment;
+
+import android.net.Uri;
 import android.content.res.AssetManager;
+
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import android.webkit.WebView;
+import android.widget.MediaController;
+import android.widget.Toast;
+import android.widget.VideoView;
+
 import android.widget.TextView;
 import android.content.Context;
 
+
 /**
- * Created by Devon on 3/14/2015.
+ * Created by Devon on 03/14/2015.
  */
 public class About_Fragment extends Fragment {
     View rootview;
+    VideoView myview;
+    private static final String TAG = "VideoPlayer";
     @Nullable
     @Override
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
-
-
-//        String url = "<html><body>Youtube video .. <br> <iframe class=\"youtube-player\" type=\"text/html\" width=\"640\" height=\"385\" src=\"http://www.youtube.com/embed/bIPcobKMB94\" frameborder=\"0\"></body></html>";
-//        WebView myWebView = (WebView) rootview.findViewById(R.id.webView);
-//        myWebView.loadData(url, "text/html", "utf-8");
-
         rootview = inflater.inflate(R.layout.about_layout, container, false);
+
+
+
         return rootview;
-    }
-    public void fontClass(Context myContext) {
-        TextView title;
-        Typeface custom_font = Typeface.createFromAsset(myContext.getAssets(), "fonts/Asap-Regular.otf");
 
-
-        title = (TextView) rootview.findViewById(R.id.textView);
-        title.setTypeface(custom_font);
 
     }
 
