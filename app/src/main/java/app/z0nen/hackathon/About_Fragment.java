@@ -35,15 +35,13 @@ public class About_Fragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootview = inflater.inflate(R.layout.about_layout, container, false);
-       myview = (VideoView) rootview.findViewById(R.id.videoView);
+        myview = (VideoView) rootview.findViewById(R.id.videoView);
 
-
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         return rootview;
+
+
     }
-
-
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
