@@ -25,6 +25,5 @@ public class Form_Fragment extends Fragment {
         rootview = inflater.inflate(R.layout.form_layout, container, false);
         return rootview;
 
-
     }
 }
